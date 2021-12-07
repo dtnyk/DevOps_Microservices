@@ -1,4 +1,4 @@
-FROM python:3.7.3-strech
+FROM python:3.7.3-stretch
 
 WORKDIR /app
 COPY . flask_app/web.py /app/
